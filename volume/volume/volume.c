@@ -9,7 +9,6 @@ typedef int16_t BYTES;
 
 int main(int argc, char *argv[])
 {
-    // Check command-line arguments
     if (argc != 4)
     {
         printf("Usage: ./volume input.wav output.wav factor\n");
